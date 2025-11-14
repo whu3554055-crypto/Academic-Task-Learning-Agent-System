@@ -1,0 +1,67 @@
+{
+  "profiles": [
+    {
+      "id": "student_123",
+      "personal_info": {
+        "name": "Alex Johnson",
+        "age": 21,
+        "major": "Computer Science",
+        "academic_year": "Junior",
+        "university": "Tech University"
+      },
+      "learning_preferences": {
+        "learning_style": {
+          "primary": "visual",
+          "secondary": "kinesthetic",
+          "preferences": [
+            "diagrams and charts",
+            "hands-on practice",
+            "interactive examples"
+          ]
+        },
+        "study_patterns": {
+          "preferred_time": "morning",
+          "session_length": "45 minutes",
+          "break_frequency": "every 45 minutes",
+          "environment": "quiet library or café with moderate noise"
+        }
+      },
+      "academic_info": {
+        "current_courses": [
+          {
+            "name": "Advanced Algorithms",
+            "code": "CS401",
+            "professor": "Dr. Smith",
+            "difficulty": "high",
+            "current_grade": "B+"
+          },
+          {
+            "name": "Machine Learning",
+            "code": "CS450",
+            "professor": "Dr. Chen",
+            "difficulty": "medium",
+            "current_grade": "A-"
+          },
+          {
+            "name": "Software Engineering",
+            "code": "CS380",
+            "professor": "Dr. Martinez",
+            "difficulty": "medium",
+            "current_grade": "A"
+          }
+        ],
+        "gpa": 3.6,
+        "strengths": ["problem-solving", "coding", "team collaboration"],
+        "challenges": ["time management", "procrastination", "test anxiety"]
+      },
+      "special_needs": {
+        "adhd": true,
+        "accommodations": [
+          "extended time on exams",
+          "quiet testing environment",
+          "flexible deadlines when needed"
+        ]
+      }
+    }
+  ]
+}
