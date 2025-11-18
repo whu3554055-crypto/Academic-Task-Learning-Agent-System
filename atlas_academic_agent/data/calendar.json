@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "summary": "Advanced Algorithms Lecture",
+      "start": {
+        "dateTime": "2026-05-15T09:00:00Z"
+      },
+      "end": {
+        "dateTime": "2026-05-15T10:30:00Z"
+      },
+      "location": "Room 301, CS Building"
+    },
+    {
+      "id": "evt_002",
+      "summary": "Machine Learning Lab",
+      "start": {
+        "dateTime": "2026-05-15T14:00:00Z"
+      },
+      "end": {
+        "dateTime": "2026-05-15T16:00:00Z"
+      },
+      "location": "Lab 205"
+    },
+    {
+      "id": "evt_003",
+      "summary": "Football Practice",
+      "start": {
+        "dateTime": "2026-05-16T17:00:00Z"
+      },
+      "end": {
+        "dateTime": "2026-05-16T19:00:00Z"
+      },
+      "location": "University Sports Field"
+    },
+    {
+      "id": "evt_004",
+      "summary": "Study Group - Algorithms",
+      "start": {
+        "dateTime": "2026-05-17T10:00:00Z"
+      },
+      "end": {
+        "dateTime": "2026-05-17T12:00:00Z"
+      },
+      "location": "Library Room 102"
+    },
+    {
+      "id": "evt_005",
+      "summary": "Software Engineering Team Meeting",
+      "start": {
+        "dateTime": "2026-05-18T15:00:00Z"
+      },
+      "end": {
+        "dateTime": "2026-05-18T16:30:00Z"
+      },
+      "location": "Virtual - Zoom"
+    }
+  ]
+}
