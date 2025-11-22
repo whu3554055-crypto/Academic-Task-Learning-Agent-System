@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Advanced Algorithms Problem Set 5",
+      "description": "Complete problems on dynamic programming and graph algorithms",
+      "due": "2026-05-18T23:59:00Z",
+      "status": "needsAction",
+      "priority": "high",
+      "course": "CS401",
+      "estimated_time": "4 hours"
+    },
+    {
+      "id": "task_002",
+      "title": "Machine Learning Project Milestone 2",
+      "description": "Implement and test neural network model for image classification",
+      "due": "2026-05-20T23:59:00Z",
+      "status": "needsAction",
+      "priority": "high",
+      "course": "CS450",
+      "estimated_time": "6 hours"
+    },
+    {
+      "id": "task_003",
+      "title": "Software Engineering Documentation",
+      "description": "Write technical documentation for sprint 3 deliverables",
+      "due": "2026-05-19T23:59:00Z",
+      "status": "needsAction",
+      "priority": "medium",
+      "course": "CS380",
+      "estimated_time": "3 hours"
+    },
+    {
+      "id": "task_004",
+      "title": "Review Lecture Notes - Algorithms",
+      "description": "Review and organize notes from this week's lectures",
+      "due": "2026-05-16T23:59:00Z",
+      "status": "needsAction",
+      "priority": "low",
+      "course": "CS401",
+      "estimated_time": "1.5 hours"
+    }
+  ]
+}
