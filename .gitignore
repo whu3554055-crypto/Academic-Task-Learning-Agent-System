@@ -33,10 +33,12 @@ wheels/
 *~
 .DS_Store
 
-# Environment variables
+# Environment variables and secrets
 .env
 .env.local
 .env.*.local
+*.env
+!.env.example
 
 # Jupyter Notebook
 .ipynb_checkpoints
