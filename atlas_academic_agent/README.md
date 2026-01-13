@@ -19,6 +19,7 @@ A sophisticated multi-agent system built with LangGraph for academic assistance,
 - [Project Structure](#-project-structure)
 - [Architecture](#-architecture)
 - [Configuration](#锔?configuration)
+- [Security](#-security)
 - [Troubleshooting](#-troubleshooting)
 - [Development](#-development)
 - [License](#-license)
@@ -335,6 +336,45 @@ Modify `atlas/llm.py` to adjust:
 - Temperature (creativity level)
 - Max tokens
 - Base URL (for different providers)
+
+---
+
+## 馃敀 Security
+
+### Protecting Sensitive Information
+
+ATLAS includes built-in security features to protect your API keys and sensitive data:
+
+#### 鉁?What's Protected
+
+- **API Keys**: Stored in `.env` file (automatically ignored by Git)
+- **Sample Data**: All JSON files contain fictional test data only
+- **Virtual Environment**: Excluded from version control
+- **Cache Files**: Python cache directories are gitignored
+
+#### 馃洝锔?Security Best Practices
+
+1. **Never commit `.env` files** with real API keys
+2. **Use `.env.example`** as a template for configuration
+3. **Rotate API keys** regularly
+4. **Run security checks** before committing code
+
+#### 馃攳 Running Security Scan
+
+Use the included security scanner to check for potential issues:
+
+```bash
+# From project root directory
+python atlas_academic_agent/check_security.py
+```
+
+This will scan for:
+- Hardcoded credentials
+- Exposed API keys
+- Missing .gitignore entries
+- Other security concerns
+
+For detailed security guidelines, see [SECURITY.md](SECURITY.md).
 
 ---
 
