@@ -1,6 +1,6 @@
-﻿# ATLAS - Academic Task Learning Agent System
+﻿# Academic-Task-Learning-Agent-System
 
-A sophisticated multi-agent system built with LangGraph for academic assistance, featuring specialized agents for planning, note-taking, and academic advising. **Cross-platform support for Windows, Linux, and macOS.**
+**Academic Task Learning Agent System（ATLAS）** — 基于 LangGraph 的多智能体学术辅助系统，帮助学生规划学习、整理笔记、获取个性化学业建议。**支持 Windows、Linux 与 macOS。**
 
 ---
 
